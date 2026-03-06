@@ -19,7 +19,7 @@ body{
 
 .site-header{
     padding: 1rem 0; /*agrega espacio arriba y abajo del header*/ /*el "1rem" es una unidad relativa al tamaño de la fuente*/
-    background-color: #ffffff; 
+    background-color: #272727; 
 }
 
 .site-header .container{
@@ -44,7 +44,7 @@ body{
 
 .main-nav a{/*estilo de los enlaces*/
     text-decoration: none; /*quita el subrayado azul predeterminado*/
-    color: #333;
+    color: #eaeaea;
     font-weight: bold; /*negrita*/
 }
 
@@ -55,7 +55,7 @@ body{
     background-size: cover; /*hace que la imagen llene todo el espacio sin deformarse*/
     background-position: center;
 
-    color: white;
+    color: #eaeaea;
     text-align: center;
 
     padding: 150px 0; /*crea mucho espacio arriba y abajo*/
@@ -73,8 +73,8 @@ body{
 }
 
 .btn{ /*crea el botón principal de la página*/
-    background-color: #c89b3c;
-    color: white;
+    background-color: #b50c0f;
+    color: #eaeaea;
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -87,7 +87,7 @@ body{
 }
 
 .menu-item{
-    background-color: white;
+    background-color: rgb(71, 16, 16);
     border-radius: 5px;
     overflow: hidden;
 }
