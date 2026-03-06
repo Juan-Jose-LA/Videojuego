@@ -50,7 +50,7 @@ body{
 
 #hero{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),/*crea una capa oscura encima de la imagen*/
-    url("https://images.unsplash.com/photo-1606112219348-204d7d8b94ee");
+    url("https://images6.alphacoders.com/548/thumb-1920-548302.jpg");
 
     background-size: cover; /*hace que la imagen llene todo el espacio sin deformarse*/
     background-position: center;
