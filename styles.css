@@ -16,3 +16,34 @@ body{
     margin-left: auto;
     margin-right: auto; /*estas dos me centran el contenido horizontalmente*/
 }
+
+.site-header{
+    padding: 1rem 0; /*agrega espacio arriba y abajo del header*/ /*el "1rem" es una unidad relativa al tamaño de la fuente*/
+    background-color: #ffffff; 
+}
+
+.site-header .container{
+    display: flex; /*permite organizar elementos en una fila o columna.*/
+    justify-content: space-between; /*separa los elementos*/
+    align-items: center; /*centra los elementos verticalmente*/
+}
+
+.logo{ /*estilo del logo*/
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-nav ul{/*estilo del menú*/
+    display: flex; /*la convierte en fila*/
+    list-style: none; /*quita los puntitos de la lista*/
+}
+
+.main-nav li{/*espacio entre los enlaces*/
+    margin-left: 20px;
+}
+
+.main-nav a{/*estilo de los enlaces*/
+    text-decoration: none; /*quita el subrayado azul predeterminado*/
+    color: #333;
+    font-weight: bold; /*negrita*/
+}
