@@ -5,7 +5,6 @@
 }
 
 body{
-    font-family: sans-serif; /*fuente principal*/
     font-size: 16px;/*tamaño base del texto*/
     line-height: 1.6;/*espacio entre líneas*/
     background-color: #272727;
@@ -123,6 +122,19 @@ a {
     margin-top: 40px;
 }
 
+#story, #menu, #contact {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#menu {
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+}
 
 
 
