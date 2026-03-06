@@ -22,6 +22,7 @@ body{
 .site-header{
     padding: 1rem 0; /*agrega espacio arriba y abajo del header*/ /*el "1rem" es una unidad relativa al tamaño de la fuente*/
     background-color: #310a0b; 
+    
 }
 
 .site-header .container{
@@ -138,7 +139,18 @@ h2 {
     background-color: #4e636c;
 }
 
+site-header.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+
+    .logo {
+    font-size: 2.5rem;
+
+}
 
 
 
