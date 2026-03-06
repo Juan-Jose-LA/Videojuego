@@ -47,3 +47,38 @@ body{
     color: #333;
     font-weight: bold; /*negrita*/
 }
+
+#hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),/*crea una capa oscura encima de la imagen*/
+    url("https://images.unsplash.com/photo-1606112219348-204d7d8b94ee");
+
+    background-size: cover; /*hace que la imagen llene todo el espacio sin deformarse*/
+    background-position: center;
+
+    color: white;
+    text-align: center;
+
+    padding: 150px 0; /*crea mucho espacio arriba y abajo*/
+
+}
+
+#hero h1{ /*estilo del texto dentro del hero*/
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn{ /*crea el botón principal de la página*/
+    background-color: #c89b3c;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
