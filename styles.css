@@ -32,7 +32,7 @@ body{
 }
 
 .logo{ /*estilo del logo*/
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #eaeaea;
 }
@@ -139,18 +139,7 @@ h2 {
     background-color: #4e636c;
 }
 
-site-header.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
-
-    .logo {
-    font-size: 2.5rem;
-
-}
 
 
 
